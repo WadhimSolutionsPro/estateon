@@ -1,0 +1,30 @@
+{
+  "name": "riazxrazor/payumoney",
+  "description": "PayUMoney library for Laravel and core PHP",
+  "keywords": [
+    "payu",
+    "payuindia",
+    "payumoney"
+  ],
+  "homepage": "http://github.com/riazxrazor/payumoney",
+  "type": "library",
+  "version": "1.0.4",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Riaz Laskar",
+      "email": "riazcool77@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Riazxrazor\\Payumoney\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6.0",
+    "illuminate/support": "^5.5|^6",
+    "symfony/http-foundation": "^4.0"
+  },
+  "minimum-stability": "dev"
+}

@@ -1,0 +1,37 @@
+1). Batch Reports
+->All Badges available in Moodle.
+->All Badges Awarded by Users.
+2). Course report
+->Progress with completion percentage.
+->Courses that have groups enabled.
+->Course access report.
+->Course access report with grades.
+->Last access to course.
+->Course Exam Report.
+3).Cohort Report
+->Cohorts and users.
+->course feedback report.
+4). Visitors Report.
+->Guest Logins Report
+5). System report
+->Disk Usage Report
+6). User Report
+->Student count in each course.
+->Course Completion with Criteria.
+->Student logins report.
+->Users who have never logged in.
+->Users who completed course.
+->Registered users, who do not log in to the Course.
+->All users.
+->Certificate report.
+->Grade report
+->User Exam report.
+7). Coupons Report
+->All coupon list.
+->Coupons Applied on course.
+->Users who have applied coupons.
+->Unused coupons list.
+8). Payment Report
+->All payment report.
+->User payment report.
+->Payment for a Course.

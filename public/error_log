@@ -1,0 +1,10 @@
+[01-Oct-2021 04:10:54 America/Boise] PHP Warning:  include(/home3/mygoldh1/public_html/estateon.com/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home3/mygoldh1/public_html/estateon.com/vendor/composer/ClassLoader.php on line 478
+[01-Oct-2021 04:10:54 America/Boise] PHP Warning:  include(/home3/mygoldh1/public_html/estateon.com/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home3/mygoldh1/public_html/estateon.com/vendor/composer/ClassLoader.php on line 478
+[01-Oct-2021 04:10:54 America/Boise] PHP Warning:  include(): Failed opening '/home3/mygoldh1/public_html/estateon.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/mygoldh1/public_html/estateon.com/vendor/composer/ClassLoader.php on line 478
+[01-Oct-2021 04:10:54 America/Boise] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home3/mygoldh1/public_html/estateon.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:804
+Stack trace:
+#0 /home3/mygoldh1/public_html/estateon.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(804): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home3/mygoldh1/public_html/estateon.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(682): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home3/mygoldh1/public_html/estateon.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(266): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home3/mygoldh1/public_html/estateon.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(800): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home3/mygoldh1/public_html/estateon.com/vendor/laravel/framework/src/Illumi in /home3/mygoldh1/public_html/estateon.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 806
